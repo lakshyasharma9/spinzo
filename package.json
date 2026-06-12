@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && cp public/_redirects dist/client/_redirects && cp public/_headers dist/client/_headers",
+    "build:vercel": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
