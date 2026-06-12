@@ -29,16 +29,6 @@ import founderImage from "@/assets/founder.jpeg";
 const WashingMachine3D = lazy(() => import("@/components/WashingMachine3D"));
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Spinzo Laundry — Premium Pickup & Delivery in Jaipur" },
-      {
-        name: "description",
-        content:
-          "Jaipur's premium laundry pickup & delivery. Fresh, folded, fragrance-perfect within 24 hours. Starting at ₹5/kg.",
-      },
-    ],
-  }),
   component: Index,
 });
 
